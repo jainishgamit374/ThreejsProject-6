@@ -141,9 +141,6 @@ renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1;
 renderer.outputEncoding = THREE.sRGBEncoding;
 
-// Orbit Controls setup
-// const controls = new OrbitControls(camera, canvas);
-// controls.enableDamping = true;
 
 // Window resize event listener
 window.addEventListener("resize", function onResize() {
